@@ -3,7 +3,6 @@
 
 <h1 align='center'> Hack - A - Dog</h1>
 <h3 align='center'> Group project created by Kyera Francis, Tanner Zuleeg, Mark Dunlea Tate</h3>
-![AltText](https://miro.medium.com/v2/resize:fit:650/1*VrpXE1hE4rO1roK0laOd7g.png)
  
 
 ## Features
@@ -47,8 +46,6 @@
 Total params: 21,847,105
 Trainable params: 21,847,105
 Non-trainable params: 0
-
-
 
 
 
