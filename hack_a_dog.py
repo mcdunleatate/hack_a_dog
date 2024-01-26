@@ -2,6 +2,8 @@ import streamlit as st
 from PIL import Image, ImageOps
 import io
 import time
+import pickle
+
 
 def loading():  
     
@@ -132,6 +134,8 @@ def main():
     
     uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
     
+    with open('./pickles/model.pkl', 'rb') as file:
+        trained_model = pickle.load(file)
     
     
     if uploaded_file is not None:
